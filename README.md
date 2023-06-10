@@ -6,15 +6,19 @@ SES React Project is a web application developed using React for a Software Engi
 
 ## Features
 
-- User registration: Allows users to create an account by providing their personal details.
-- Login: Users can log in to their accounts using their credentials.
-- Dashboard: Displays user information and provides a user-friendly interface for managing data.
+- **Student Registration**: New students can register by providing their name, email, password, and confirming the password.
+- **Login**: Registered students can log in using their ID and PIN.
+- **Student Information Entry**: After logging in, students can enter their name, email, password, level, and department.
+- **Dashboard**: Upon successful information entry, students are directed to a dashboard that displays a welcome message and their information.
+
 
 ## Technologies Used
 
-- React: JavaScript library for building user interfaces.
-- HTML: Markup language for structuring web pages.
-- CSS: Stylesheet language for designing the application's appearance.
+- React: A JavaScript library for building user interfaces.
+- React Router: A routing library for managing navigation in React applications.
+- HTML5: Markup language for creating the structure of web pages.
+- CSS3: Style sheet language for styling web pages.
+- JavaScript: Programming language for adding interactivity to web pages.
 
 ## Getting Started
 
@@ -39,10 +43,31 @@ Start the development server:
 ```npm start```
 
   Open your browser and visit http://localhost:3000 to see the application.
+  
+  
+## Usage
+
+- Register as a new student by providing the required information.
+- Log in using your ID and PIN.
+- Enter your personal information, such as name, email, password, level, and department.
+- View the dashboard to see a welcome message and your information.
+
 
 ### Contributing
 
 Contributions are welcome! If you find any issues or have suggestions for improvements, please create a new issue or submit a pull request.
+
+## Acknowledgements
+
+- [React](https://reactjs.org)
+- [React Router](https://reactrouter.com)
+- [Create React App](https://create-react-app.dev)
+- [GitHub](https://github.com)
+- [OpenAI](https://openai.com)
+
+## Contact
+
+For any inquiries or questions, feel free to contact me at [evansachie01@gmail.com](mailto:evansachie01@gmail.com).
 
 ### License
 
