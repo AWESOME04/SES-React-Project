@@ -1,6 +1,6 @@
 # SES React Project
 
-![Is-React-js-Development-Services-Really-Worth-It](https://github.com/AWESOME04/SES-React-Project/assets/102630199/1d168f88-97fb-4cca-a7b5-b6e6581ec59b)
+![62790d5bf1bb6000201ec695](https://github.com/AWESOME04/SES-React-Project/assets/102630199/b8e197be-5cae-40ae-8c62-5b047be8fa9c)
 
 SES React Project is a web application developed using React for a Software Engineering course. It provides functionality for user registration, login, and a dashboard to display user information.
 
@@ -37,7 +37,8 @@ Install the dependencies:
 
 Start the development server:
 ```npm start```
-    Open your browser and visit http://localhost:3000 to see the application.
+
+  Open your browser and visit http://localhost:3000 to see the application.
 
 ### Contributing
 
