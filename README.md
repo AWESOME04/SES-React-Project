@@ -7,10 +7,20 @@ SES React Project is a web application developed using React for a Software Engi
 ## Features
 
 - **Student Registration**: New students can register by providing their name, email, password, and confirming the password.
+
+![Student Registration Page](https://github.com/AWESOME04/SES-React-Project/assets/102630199/56df1153-f931-4fe5-9202-4f70cb048e01)
+
 - **Login**: Registered students can log in using their ID and PIN.
+
+![Login Page](https://github.com/AWESOME04/SES-React-Project/assets/102630199/61c3dffd-b21c-492c-988b-8cdbfaa6d688)
+
 - **Student Information Entry**: After logging in, students can enter their name, email, password, level, and department.
+
+![Student Info Entry Page](https://github.com/AWESOME04/SES-React-Project/assets/102630199/da09d015-b5f8-4e83-b283-3a39688ef3b4)
+
 - **Dashboard**: Upon successful information entry, students are directed to a dashboard that displays a welcome message and their information.
 
+![Dashboard](https://github.com/AWESOME04/SES-React-Project/assets/102630199/b8d23f04-95ed-42a5-a1fd-bb49132edc8b)
 
 ## Technologies Used
 
