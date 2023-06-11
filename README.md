@@ -30,8 +30,9 @@ SES React Project is a web application developed using React for a Software Engi
 - **Dashboard**: 
      Upon successful information entry, students are directed to a dashboard that displays a welcome message and their information.
      The student's information, including name, email, level, and department, is displayed on the Dashboard.
+     
+![Dashboard](https://github.com/AWESOME04/SES-React-Project/assets/102630199/a1f39dd5-93ea-413e-98c3-d267e585c0b4)
 
-![Dashboard](https://github.com/AWESOME04/SES-React-Project/assets/102630199/b8d23f04-95ed-42a5-a1fd-bb49132edc8b)
 
 ## Technologies Used
 
