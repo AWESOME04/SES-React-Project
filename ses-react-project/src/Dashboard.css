@@ -1,48 +1,82 @@
 .dashboard-container {
-  max-width: 100%;
+  display: flex;
   height: 100vh;
-  margin: 0;
-  padding: 20px;
-  background-image: url('Dashboard.jpg');
-  background-size: cover;
-  background-position: center;
 }
 
+.sidebar {
+  flex: 0 0 250px; /* Set a fixed width for the sidebar */
+  background-color: #153a7e;
+  color: #fff;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
 
-.dashboard-heading {
-  text-align: center;
+.sidebar-logo-container {
+  display: flex;
+  justify-content: center;
   margin-bottom: 20px;
 }
 
-.dashboard-options {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 20px;
-  justify-items: center;
+.sidebar-logo {
+  width: 200px;
+  height: 200px;
 }
 
-.dashboard-option {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 20px;
-  background-color: #f4f4f4;
-  border-radius: 5px;
-  text-decoration: none;
-  color: #333;
-  transition: background-color 0.3s ease;
-}
-
-.dashboard-option i {
+.sidebar-heading {
   font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.sidebar-menu {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar-menu-item {
   margin-bottom: 10px;
 }
 
-.dashboard-option span {
-  font-size: 16px;
-  text-align: center;
+.sidebar-menu-link {
+  color: #fff;
+  text-decoration: none;
 }
 
-.dashboard-option:hover {
-  background-color: #e0e0e0;
+.sidebar-menu-link:hover {
+  text-decoration: underline;
+}
+
+.sidebar-footer {
+  margin-top: auto;
+}
+
+.main-content {
+  flex: 1;
+  padding: 20px;
+  background-color: #f2f2f2;
+}
+
+.main-heading {
+  font-size: 36px;
+  margin-bottom: 20px;
+  color: #153a7e;
+}
+
+.main-text {
+  font-size: 18px;
+  line-height: 1.5;
+  color: #333;
+}
+
+.slideshow-container {
+  margin-top: 20px;
+}
+
+.slideshow-image {
+  width: 300px;
+  height: 500px;
+  margin-bottom: 20px;
 }
