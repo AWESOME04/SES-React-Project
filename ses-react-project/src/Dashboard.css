@@ -80,3 +80,32 @@
   height: 500px;
   margin-bottom: 20px;
 }
+
+.sidebar-quick-links {
+  margin-top: 20px;
+}
+
+.sidebar-quick-links h2 {
+  color: #fff; /* Change the text color to white */
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.sidebar-quick-links ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar-quick-links li {
+  margin-bottom: 5px;
+}
+
+.sidebar-quick-links a {
+  color: #fff; /* Change the text color to white */
+  text-decoration: none;
+}
+
+.sidebar-quick-links a:hover {
+  text-decoration: underline;
+}
