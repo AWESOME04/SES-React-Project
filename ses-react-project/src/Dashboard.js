@@ -72,7 +72,7 @@ const Dashboard = () => {
                 <div className="sidebar-footer"></div>
             </div>
             <div className="main-content">
-                <h1 className="main-heading">Welcome to SES Dashboard, Evans Acheampong</h1>
+                <h1 className="main-heading">Welcome to SES Dashboard</h1>
                 <p className="main-text">
                     "Science can amuse and fascinate us all, but it is engineering that
                     changes the world." - Isaac Asimov
@@ -93,7 +93,7 @@ const Dashboard = () => {
                     <Carousel showThumbs={false} infiniteLoop autoPlay>
                         {images.map((imageUrl, index) => (
                             <div key={index}>
-                                <img className="slideshow-image" src={imageUrl.default} alt={`Slide ${index}`} />
+                                <img className="slideshow-image" src={imageUrl} alt={`Slide ${index}`} />
                             </div>
                         ))}
                     </Carousel>
@@ -104,4 +104,3 @@ const Dashboard = () => {
 }
 
 export default Dashboard;
-
