@@ -1,6 +1,6 @@
 # SES React Project
 
-# This is the [Live Web Site](https://ses-react-project.vercel.app/)
+# This is the [LIVE WEB SITE](https://ses-react-project.vercel.app/)
 
 ![62790d5bf1bb6000201ec695](https://github.com/AWESOME04/SES-React-Project/assets/102630199/b8e197be-5cae-40ae-8c62-5b047be8fa9c)
 
